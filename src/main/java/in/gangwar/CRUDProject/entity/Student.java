@@ -16,6 +16,16 @@ public class Student {
         this.id = id;
     }
 
+    private Boolean deleted ;
+
+    public Boolean getDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(Boolean deleted) {
+        this.deleted = deleted;
+    }
+
     private String name ;
     private int age ;
     private String email ;
