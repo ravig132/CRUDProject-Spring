@@ -1,5 +1,11 @@
 package in.gangwar.CRUDProject.repository;
 
-public class StudentRepository {
+import in.gangwar.CRUDProject.entity.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+//@Repository
+public interface StudentRepository extends JpaRepository<Student,Long> {
+
 
 }
